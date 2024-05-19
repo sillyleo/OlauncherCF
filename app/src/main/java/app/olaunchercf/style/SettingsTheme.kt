@@ -72,7 +72,7 @@ fun SettingsTheme(
         ),
         item = TextStyle(
             fontFamily = FontFamily.SansSerif,
-            fontWeight = FontWeight.Light,
+            fontWeight = FontWeight.Medium,
             fontSize = 16.sp,
             color = if (isDark) textLight else textDark,
         ),

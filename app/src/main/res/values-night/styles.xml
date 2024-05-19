@@ -55,7 +55,7 @@
         <item name="android:textColor">?attr/primaryColor</item>
         <item name="android:editTextColor">?attr/primaryColor</item>
         <item name="android:textColorHint">?attr/primaryColor</item>
-        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:fontFamily">@font/medium</item>
         <item name="android:inputType">textNoSuggestions</item>
         <item name="android:cursorVisible">false</item>
     </style>
@@ -64,13 +64,14 @@
         <item name="android:textColor">@drawable/text_colors_default</item>
         <item name="android:textColorHint">?attr/primaryColorTrans80</item>
         <item name="android:shadowColor">?attr/primaryTextShadowColor</item>
+        <item name="android:fontFamily">@font/medium</item>
         <item name="android:shadowDx">1</item>
         <item name="android:shadowDy">1</item>
         <item name="android:shadowRadius">2</item>
     </style>
 
     <style name="TextLarge" parent="TextDefault">
-        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:fontFamily">@font/bold</item>
         <item name="android:textSize">@dimen/text_large</item>
     </style>
 
